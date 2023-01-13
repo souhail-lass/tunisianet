@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+}
+.navBar{
+    background: url(https://www.tunisianet.com.tn/themes/electrive/assets/img/bg_header.jpg);
+    max-width: 100%;
+    height: 52px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px 0 190px;
+
+
+}
+.home img{
+    height: 52px;
+}
+#searchBar{
+    display: flex;
+    flex-direction: row;
+    border-radius: 40px;
+    height: 36px;
+    width: 730px;
+    align-items: center;
+    background-color: #f1f1f1;
+    justify-content: space-between;
+
+}
+.left-search{
+    width: 200px;
+    padding-left: 10px;
+    font-size: 13px;
+    color: #adacac;
+    font-family: 'Poppins', sans-serif !important;
+
+}
+.middle-search{
+    width: 430px;
+    border: none;
+    outline: 0;
+    background-color: #f1f1f1;
+}
+.middle-search::placeholder{ color: #999999;font-family:'Poppins', sans-serif; ;}
+.right-search{
+    width: 100px;
+    background-color: gold;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 36px;
+
+    
+}
+.right-search img{
+    height: 36px;
+    width: 100px;
+    cursor: pointer;
+    fill: white;
+}
+.right-search img:hover{background-color: black;border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;}
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 200px;
+    gap: 10px;
+}
+.nav-right svg{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    transition-duration: .02s;
+}
+.nav-right div :hover{ fill: gold;  }
+.nav-right div:hover{transform: scale(1.2);}
+.categories{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1440px;
+    margin: 14px auto 19px;
+
+}
+.categories span{
+    color: #2470bc;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: .8px;  
+}
+.homeImage{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.pics1 , .pics2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+.homeImages img{
+    height: 374.4px;
+    width: 374.4px;
+    margin: 10px 10px 10px 10px;
+}
+.sponsors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 100px 80px 80px 100px;
+}
+.sponsors img{
+    height: 79.13px;
+    width: 115.7px;
+}
+#huawei{
+    height: 119.517px;
+    width: 115.7px;
+}
+.webBottom{
+    background-color:#026ba4 ;
+    height: 693.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socialMedia{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.socialMedia img{
+    height: 38px;
+    width: 38px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: white;
+    color: #026ba4;
+    padding: 5px;
+    margin: 0 2px;
+    
+}
+.socialMedia img:hover{background-color: gold;}
+.offre{
+    background-color: white;
+    height: 204px;
+    width: 1530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.offre .logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.offre .logos img{
+    width:64px;
+    height: 64px;
+}
+.offre .descrip{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0 0 60px;
+    font-family: 'Poppins', sans-serif !important;
+    color: #026ba4;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.lastPhrase{
+    color: #026ba4;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 30px 0 0 30px;
+    font-family: 'Poppins', sans-serif !important;
+}
+.infoGeneral{
+    display: flex;
+    flex-direction: row;
+    height: 376.5px;
+    padding-top: 50px;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+.infoGeneral div{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    font-size: 16px;
+    color: #f1f1f1;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.infoGeneral div h3{letter-spacing: 1px;margin-bottom: 15px;text-transform: uppercase;font-weight: 600;}
+.one,.two,.three,.four{
+    margin: 20px;
+    width: 360px;
+    height: 245px;
+}
+.one div:hover {color: gold;}
+.two div:hover {color: gold;}
+.three div:hover {color: gold;}
+hr{
+    border-top:1px solid white;
+    margin-bottom: 40px;
+}
+.webFooter{
+    width: 100%;
+    padding: 15px 0 15px 0;
+    height: 30.5px;
+    border-top: 1px solid white;
+    text-align: center;
+    background-color: #026ba4;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    font-family:'Poppins', sans-serif !important;
+}
